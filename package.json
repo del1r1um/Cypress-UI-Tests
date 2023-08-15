@@ -1,0 +1,15 @@
+{
+  "name": "auth_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "auth_tests": "cypress run --browser chrome --spec cypress/e2e/auth.cy.js",
+    "pokemon_tests": "cypress run --browser chrome --spec cypress/e2e/avatar.cy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.3"
+  }
+}
