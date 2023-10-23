@@ -1,4 +1,4 @@
-describe('Authorization Form Smoke Tests', () => {
+describe('Authorization Form Tests', () => {
   beforeEach(() => {
     cy.visit(`${Cypress.env('AUTH_HOST')}`)
   })
